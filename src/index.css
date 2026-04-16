@@ -1,0 +1,14 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Jersey+15&family=Iosevka:wght@400&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  padding-top: 6rem; /* Altura del header h-24 */
+}
+
+#main-header, #header-title, #header-subtitle {
+  transition: all 0.3s ease-in-out;
+}
