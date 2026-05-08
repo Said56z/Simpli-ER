@@ -7,6 +7,7 @@
 
 body {
   padding-top: 6rem; /* Altura del header h-24 */
+  background-color: #F2E1D8;
 }
 
 #main-header, #header-title, #header-subtitle {
