@@ -50,7 +50,7 @@ const MainContent = ({ regex, setRegex }) => {
             type="text"
             value={regex}
             onChange={(e) => setRegex(e.target.value)}
-            placeholder="(a*b)u(b*a)"
+            placeholder="(auε)u(εub)u(εεε)"
             className="flex-1 h-16 px-6 bg-input-bg rounded-xl font-principal text-2xl md:text-3xl text-black placeholder:text-text-primary/40 focus:outline-none focus:ring-2 focus:ring-accent-red transition-all"
           />
 
